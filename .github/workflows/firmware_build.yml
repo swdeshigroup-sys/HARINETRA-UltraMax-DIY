@@ -1,0 +1,29 @@
+﻿name: Firmware Build
+
+on:
+  push:
+    paths:
+      - 'firmware/**'
+  pull_request:
+    paths:
+      - 'firmware/**'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Install Toolchain
+        run: sudo apt-get update && sudo apt-get install -y build-essential
+
+      - name: Build BMS firmware
+        working-directory: firmware/bms_firmware
+        run: |
+          make all
+
+      - name: Validate AI Config
+        run: |
+          echo "Linting ONNX config"
+          jq . firmware/ai_pipeline/onnx_runtime_config.json
+
