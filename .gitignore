@@ -1,9 +1,11 @@
-﻿# OS files
-Thumbs.db
+﻿# Python artifacts
+venv/
+__pycache__/
+*.py[cod]
+
+# KiCad backups
+*.kicad_pcb-bak
+
+# OS files
 .DS_Store
-
-# Build artifacts
-*.zip
-
-# KiCad caches
-*.kicad_sch-bak
+Thumbs.db
