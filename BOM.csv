@@ -1,0 +1,20 @@
+﻿Category,Component,Qty,Unit Cost (₹),Total Cost (₹)
+Compute,RK3588 SoM + Carrier,2,10000,20000
+Compute,Kendryte K210 SoM,4,1500,6000
+Compute,Snapdragon 865 Module,1,3500,3500
+Compute,Lattice ECP5 FPGA Board,1,2000,2000
+Sensors,Horn-Vivaldi Antenna,4,750,3000
+Sensors,HV Pulse TX_RX PCB,2,750,1500
+Sensors,LNA + ADC Circuit,1,1000,1000
+Spiritual,EVP Microphone Array,6,166.7,1000
+Spiritual,EEG OpenBCI Clone,1,1500,1500
+Mobility,Dual Mecanum Rover,2,2000,4000
+Mobility,DIY VTOL UAV,1,1500,1500
+UI,Holosynth Glasses,1,2500,2500
+Power,LiFePO₄ Cells,16,0,0
+Power,DIY BMS Board,1,2000,2000
+Power,Supercapacitor Bank (2×10 F),2,400,800
+5G,Phone Mount + OTG Cable,1,500,500
+Enclosure,IP68 Case + Coating,1,3000,3000
+Wiring,Connectors & Cables,1,3000,3000
+Misc,Spare Parts & Tools,1,2500,2500
