@@ -1,0 +1,8 @@
+﻿{
+  \"language\": \"sa-hn\",  
+  \"wake_word\": \"Om Harinetra\",
+  \"intents\": {
+    \"scan\": [\"scan area\", \"शोध शुरू करो\"],
+    \"lockdown\": [\"lock system\", \"पसवर्ड सक्रिय करो\"]
+  }
+}

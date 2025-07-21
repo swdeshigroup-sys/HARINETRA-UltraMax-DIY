@@ -1,0 +1,9 @@
+﻿{
+  \"onnx_model_path\": \"../ai_models/FeelSync_Emotional_AI.tflite\",
+  \"input_tensor\": \"audio_input\",
+  \"output_tensor\": \"emotion_scores\",
+  \"optimization\": {
+    \"tvm\": true,
+    \"quantize\": true
+  }
+}

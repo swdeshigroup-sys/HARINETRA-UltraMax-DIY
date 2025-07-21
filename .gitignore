@@ -1,0 +1,9 @@
+﻿# OS files
+Thumbs.db
+.DS_Store
+
+# Build artifacts
+*.zip
+
+# KiCad caches
+*.kicad_sch-bak
